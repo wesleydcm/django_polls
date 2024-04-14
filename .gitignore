@@ -1,0 +1,40 @@
+# Arquivos de ambiente e configuração sensíveis
+.env
+*.env
+
+# Diretório do ambiente virtual
+venv/
+venv*/
+*.pyc
+*.pyo
+
+# Arquivos de log
+*.log
+
+# Arquivos de banco de dados
+*.sqlite3
+
+# Diretório de mídia (uploads de usuários, etc.)
+media/
+
+# Diretório de arquivos estáticos coletados
+staticfiles/
+
+# Arquivos temporários de sistema
+*.swp
+*~
+*.bak
+
+# Diretório __pycache__
+__pycache__/
+
+# Diretório de arquivos compilados
+*.pyc
+
+# Diretório do Node.js e pacotes relacionados (se você estiver usando JavaScript)
+node_modules/
+
+# Outros
+.DS_Store
+.idea/
+*.iml
